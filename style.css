@@ -208,3 +208,67 @@ h1 span { color: var(--accent); }
     color: var(--text-main);
     border-bottom: 1px solid var(--accent);
 }
+
+.skills-bars {
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+.skill-item{
+    margin-bottom: 20px;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: var(--text-dim);
+}
+
+.skill-bar {
+    width: 100%;
+    height: 8px;
+    background: #1a1a1a;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 4px;
+    transition: width 1.5s ease-in-out;
+}
+
+.cv-container {
+    margin-top: 40px
+}
+
+.cv-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 2px solid var(--accent); /* Ta couleur Or */
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Sora', sans-serif;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    border-radius: 4px; /* Un peu d'arrondi ou 0 pour un look brut */
+
+}
+
+.cv-button:hover {
+    background-color: var(--accent); /* Se remplit d'or au survol */
+    color: #000; /* Le texte devient noir pour être lisible */
+    box-shadow: 0 0 20px rgba(195, 164, 92, 0.4); /* Halo lumineux */
+    transform: translateY(-5px);
+}
+
+.cv-button .icon {
+    font-size: 1.2rem;
+}
