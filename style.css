@@ -272,3 +272,343 @@ h1 span { color: var(--accent); }
 .cv-button .icon {
     font-size: 1.2rem;
 }
+
+.project-details h3 {
+    font-size: 1.5rem;
+    color: var(--accent); /* Ta couleur Or */
+    margin-bottom: 5px;
+}
+
+.project-context {
+    font-style: italic;
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.project-description {
+    max-width: 600px;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+.project-tags span {
+    font-size: 0.8rem;
+    background: #1a1a1a;
+    padding: 4px 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.journey-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.journey-card {
+    background: #1a1a1a;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    position: relative;
+    border-bottom: 4px solid #333; /* Effet de profondeur */
+}
+
+.journey-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.step-date {
+    font-size: 0.8rem;
+    color: var(--accent);
+    font-weight: bold;
+    background: rgba(195, 164, 92, 0.1);
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.journey-card h3 {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.journey-card p {
+    font-size: 0.9rem;
+    color: #aaa;
+    line-height: 1.5;
+}
+
+/* Style spécial pour la carte de stage pour la faire ressortir */
+.stage-card {
+    border-color: var(--accent);
+}
+
+/* --- VEILLE TECHNOLOGIQUE --- */
+.veille-section {
+    padding: 100px 50px;
+    background: #0d0d0d;
+}
+
+.problematique-box {
+    background: #151515; /* Un gris très foncé au lieu du blanc */
+    color: #ffffff;      /* Le texte doit passer en blanc pour être lisible */
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 800px;
+    border: 2px solid var(--accent); /* Ajoute une bordure dorée */
+    box-shadow: 0 0 20px rgba(195, 164, 92, 0.3);
+}
+
+.problematique-header {
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.problematique-text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.veille-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.veille-card {
+    background: #151515;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    border: 1px solid #333;
+}
+
+.veille-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--accent);
+}
+
+.card-img-wrapper {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    color: var(--accent);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.sources-container {
+    margin-top: 60px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.sources-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sources-list li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+    color: #ccc;
+}
+
+.sources-list li::before {
+    content: "•";
+    color: var(--accent);
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+}
+
+.sources-list a {
+    color: var(--accent);
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+/* --- SECTION CONTACT --- */
+.contact-section {
+    padding: 100px 50px;
+    background: radial-gradient(circle at bottom, #1a1a1a 0%, #0d0d0d 100%);
+    text-align: center;
+}
+
+.contact-wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-card {
+    background: #151515;
+    padding: 50px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    max-width: 600px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: border-color 0.3s;
+}
+
+.contact-card:hover {
+    border-color: var(--accent);
+}
+
+.den-den-mushi {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.contact-card h3 {
+    font-size: 1.5rem;
+    color: var(--accent);
+    margin-bottom: 15px;
+}
+
+.contact-card p {
+    color: var(--text-dim);
+    margin-bottom: 30px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+    background: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.contact-item:hover {
+    background: var(--accent);
+    color: #000;
+    transform: translateX(10px);
+}
+
+/* Animation de vibration pour l'Escargophone */
+@keyframes ring-vibration {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.contact-card:hover .den-den-mushi {
+    display: inline-block; /* Nécessaire pour l'animation de transformation */
+    animation: ring-vibration 0.1s infinite;
+    cursor: pointer;
+}
+
+/* --- SECTION DOCUMENTS --- */
+.documents-section {
+    padding: 100px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.docs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.doc-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #151515;
+    padding: 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 1px solid #333;
+    transition: all 0.3s ease;
+}
+
+.doc-card:hover {
+    border-color: var(--accent);
+    transform: scale(1.02);
+    background: #1a1a1a;
+}
+
+.doc-icon {
+    font-size: 2.5rem;
+}
+
+.doc-info h3 {
+    color: var(--text-main);
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.doc-info p {
+    color: var(--text-dim);
+    font-size: 0.85rem;
+    line-height: 1.3;
+}
+
+.view-btn {
+    margin-left: auto;
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid var(--accent);
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.doc-card:hover .view-btn {
+    background: var(--accent);
+    color: #000;
+}
