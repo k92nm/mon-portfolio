@@ -25,10 +25,6 @@ Le portfolio est consultable en ligne ici : [LIEN_VERS_TON_GITHUB_PAGES](https:/
 * **Coffre aux Archives :** Accès direct aux documents officiels (Tableau de synthèse, Rapports de stage).
 * **Escargophone (Contact) :** Section interactive pour me contacter par mail ou via LinkedIn.
 
-## ⚓ Installation Locale
-Pour cloner ce projet et le lancer chez vous :
-1. Clonez le dépôt : `git clone https://github.com/ton-pseudo/mon-portfolio.git`
-2. Ouvrez `index.html` dans votre navigateur.
 
 ## ⚖️ Licence
 Ce projet est réalisé à des fins pédagogiques pour le passage du BTS SIO.
