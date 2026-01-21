@@ -5,7 +5,7 @@ Bienvenue sur le dépôt de mon portfolio professionnel. Ce projet a été conç
 L'interface est inspirée de l'univers de **One Piece**, mêlant passion personnelle et rigueur technique.
 
 ## 🚀 Déploiement
-Le portfolio est consultable en ligne ici : [LIEN_VERS_TON_GITHUB_PAGES](https://ton-pseudo.github.io/mon-portfolio/)
+Le portfolio est consultable en ligne ici : https://k92nm.github.io/mon-portfolio/
 
 ## 🛠️ Stack Technique
 * **Frontend :** HTML5, CSS3 (Flexbox, Grid), JavaScript (Vanilla)
